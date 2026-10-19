@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chúc mừng 20/10 – Gửi mẹ và em gái</title>
+<meta name="description" content="Lời chúc 20/10 dành cho mẹ và em gái.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🌷</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500&family=Lora:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --wine:#4A1630; --wine-2:#6B2342; --rose:#C4506F; --blush:#FBEEF0; --petal:#F3D3DA;
+  --gold:#B8903A; --ink:#2B1520; --muted:#6F5560; --paper:#FFFFFF;
+  --serif:'Lora',Georgia,serif; --sans:'Be Vietnam Pro',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--blush);line-height:1.75;font-weight:300}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+/* Hero */
+.hero{position:relative;min-height:100vh;min-height:100svh;display:grid;place-items:center;text-align:center;
+  padding:48px 24px;color:#fff;overflow:hidden;
+  background:radial-gradient(120% 90% at 50% 0%,var(--wine-2) 0%,var(--wine) 60%,#2E0D1E 100%)}
+#petals{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.hero-inner{position:relative;max-width:760px}
+.date{display:inline-block;font-family:var(--serif);font-size:clamp(64px,16vw,150px);line-height:1;font-weight:600;
+  color:var(--petal);letter-spacing:-.02em}
+.date small{font-size:.28em;color:var(--gold);margin-left:.15em;font-weight:500}
+.hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(24px,4.6vw,40px);margin:18px 0 14px;line-height:1.3}
+.hero p{max-width:520px;margin:0 auto;color:#EAD3DA;font-size:clamp(15px,2.2vw,18px)}
+.rule{width:64px;height:2px;background:var(--gold);margin:28px auto}
+.btn{display:inline-block;margin-top:30px;padding:13px 30px;border-radius:999px;background:var(--gold);color:#2B1520;
+  font-weight:500;text-decoration:none;font-size:15px;transition:background .2s,transform .2s}
+.btn:hover{background:#D1A84C;transform:translateY(-2px)}
+
+/* Letters */
+main{max-width:1040px;margin:0 auto;padding:88px 20px 40px}
+.intro{text-align:center;max-width:560px;margin:0 auto 56px}
+.intro h2{font-family:var(--serif);font-weight:500;font-size:clamp(26px,4vw,34px);color:var(--wine);line-height:1.3}
+.intro p{color:var(--muted);margin-top:12px}
+.letters{display:grid;gap:32px;grid-template-columns:1fr 1fr}
+.letter{background:var(--paper);border-radius:6px;padding:40px 34px 34px;border-top:4px solid var(--rose);
+  box-shadow:0 18px 40px -24px rgba(74,22,48,.45);display:flex;flex-direction:column}
+.letter.sis{border-top-color:var(--gold)}
+.to{font-family:var(--serif);font-style:italic;color:var(--rose);font-size:18px}
+.sis .to{color:var(--gold)}
+.letter h3{font-family:var(--serif);font-weight:600;font-size:28px;color:var(--wine);margin:4px 0 18px;line-height:1.25}
+.letter p{margin-bottom:14px;font-size:16px}
+.letter .extra{display:none}
+.letter.open .extra{display:block;animation:fade .5s ease}
+.more{margin-top:auto;align-self:flex-start;background:none;border:1px solid var(--wine);color:var(--wine);
+  padding:9px 20px;border-radius:999px;font:inherit;font-size:14px;cursor:pointer;transition:background .2s,color .2s}
+.more:hover{background:var(--wine);color:#fff}
+.sign{font-family:var(--serif);font-style:italic;color:var(--wine);margin-top:6px}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+
+/* Wishes */
+.wishes{margin:72px 0 0;background:var(--wine);color:#fff;border-radius:6px;padding:48px 28px;text-align:center}
+.wishes h2{font-family:var(--serif);font-weight:500;font-size:clamp(22px,3.4vw,28px);margin-bottom:22px}
+.quote{font-family:var(--serif);font-style:italic;font-size:clamp(18px,2.8vw,23px);line-height:1.6;max-width:640px;
+  margin:0 auto;min-height:5.2em;display:grid;place-items:center;color:var(--petal)}
+.wishes button{margin-top:22px;background:transparent;color:#fff;border:1px solid var(--gold);border-radius:999px;
+  padding:10px 24px;font:inherit;font-size:14px;cursor:pointer;transition:background .2s}
+.wishes button:hover{background:rgba(184,144,58,.3)}
+
+footer{text-align:center;padding:48px 20px 56px;color:var(--muted);font-size:14px}
+footer b{font-family:var(--serif);color:var(--wine);font-weight:500}
+
+@media(max-width:760px){
+  .letters{grid-template-columns:1fr}
+  main{padding-top:64px}
+  .letter{padding:32px 24px 28px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .letter.open .extra{animation:none}
+  .btn{transition:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <canvas id="petals" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <div class="date">20<small>/</small>10</div>
+    <h1>Gửi người phụ nữ tuyệt vời nhất của con và người em gái đáng yêu nhất của anh</h1>
+    <div class="rule"></div>
+    <p>Ngày Phụ nữ Việt Nam – một ngày nhỏ để nói những điều mà thường ngày mình ít khi nói.</p>
+    <a class="btn" href="#thu">Đọc thư</a>
+  </div>
+</header>
+
+<main id="thu">
+  <div class="intro">
+    <h2>Hai lá thư nhỏ cho hai người quan trọng</h2>
+    <p>Không có món quà nào đủ lớn, nên xin gửi tạm những lời này.</p>
+  </div>
+
+  <div class="letters">
+    <article class="letter" id="mom">
+      <span class="to">Gửi mẹ,</span>
+      <h3>Mẹ là mái nhà của con</h3>
+      <p>Có những điều con chỉ hiểu ra khi đã lớn: những bữa cơm mẹ nấu sau một ngày dài mệt mỏi, những lần mẹ nói “mẹ không sao” trong khi mẹ rất cần được nghỉ ngơi.</p>
+      <p>Cảm ơn mẹ vì đã hy sinh thầm lặng, vì đã tin con ngay cả khi con chưa tin chính mình.</p>
+      <div class="extra">
+        <p>Con biết mình chưa luôn ở bên mẹ nhiều như mẹ mong. Nhưng dù đi đâu, làm gì, con vẫn luôn mang theo lời mẹ dặn và tình thương của mẹ trong lòng.</p>
+        <p>Chúc mẹ thật nhiều sức khỏe, nhiều nụ cười, và những ngày bình yên. Đến lượt con chăm sóc mẹ.</p>
+        <p class="sign">Con yêu mẹ rất nhiều.</p>
+      </div>
+      <button class="more" aria-expanded="false">Đọc tiếp</button>
+    </article>
+
+    <article class="letter sis" id="sis">
+      <span class="to">Gửi em gái,</span>
+      <h3>Em là điều may mắn của anh</h3>
+      <p>Lớn lên cùng nhau, mình đã cãi nhau không ít, nhưng người đầu tiên đứng về phía em lúc nào cũng là anh. Điều đó sẽ không bao giờ thay đổi.</p>
+      <p>Em thông minh, mạnh mẽ và tử tế hơn em nghĩ rất nhiều.</p>
+      <div class="extra">
+        <p>Hãy cứ theo đuổi những điều em yêu thích, đừng sợ sai, đừng sợ chậm. Phía sau em luôn có gia đình, và có anh.</p>
+        <p>Chúc em luôn xinh đẹp theo cách của riêng mình, tự tin trên con đường em chọn, và mãi giữ nụ cười rạng rỡ ấy.</p>
+        <p class="sign">Chúc mừng 20/10, cô gái của anh!</p>
+      </div>
+      <button class="more" aria-expanded="false">Đọc tiếp</button>
+    </article>
+  </div>
+
+  <section class="wishes" aria-live="polite">
+    <h2>Thêm một lời chúc</h2>
+    <p class="quote" id="quote">Chúc những người phụ nữ của tôi luôn khỏe mạnh, hạnh phúc và được yêu thương mỗi ngày.</p>
+    <button id="next" type="button">Lời chúc khác</button>
+  </section>
+</main>
+
+<footer>
+  <p>Làm bằng tất cả tình yêu thương dành cho <b>mẹ</b> và <b>em gái</b>.</p>
+  <p>20 tháng 10</p>
+</footer>
+
+<script>
+/* Mở/đóng phần thư */
+document.querySelectorAll('.letter').forEach(function(l){
+  var b=l.querySelector('.more');
+  b.addEventListener('click',function(){
+    var open=l.classList.toggle('open');
+    b.textContent=open?'Thu gọn':'Đọc tiếp';
+    b.setAttribute('aria-expanded',open);
+  });
+});
+
+/* Lời chúc ngẫu nhiên */
+var wishes=[
+  "Chúc những người phụ nữ của tôi luôn khỏe mạnh, hạnh phúc và được yêu thương mỗi ngày.",
+  "Phụ nữ không cần hoàn hảo. Chỉ cần được là chính mình và được trân trọng vì điều đó.",
+  "Mong mọi điều mẹ từng dành cho con đều quay về với mẹ, nhiều gấp bội.",
+  "Chúc em gái luôn đủ dũng cảm để mơ lớn và đủ dịu dàng để giữ trái tim ấm áp.",
+  "Gia đình là nơi để trở về, và hai người là lý do khiến nơi ấy trọn vẹn.",
+  "Cảm ơn vì đã luôn ở đó. Chúc hai người một ngày 20/10 thật nhẹ nhàng và vui vẻ."
+];
+var qi=0,q=document.getElementById('quote');
+document.getElementById('next').addEventListener('click',function(){
+  qi=(qi+1)%wishes.length;q.textContent=wishes[qi];
+});
+
+/* Cánh hoa rơi (một hiệu ứng duy nhất, tắt khi người dùng chọn giảm chuyển động) */
+(function(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var c=document.getElementById('petals'),x=c.getContext('2d'),W,H,P=[],cols=['#F3D3DA','#C4506F','#E8A5B5','#B8903A'];
+  function size(){W=c.width=c.offsetWidth;H=c.height=c.offsetHeight}
+  size();addEventListener('resize',size);
+  var n=Math.min(36,Math.floor(innerWidth/30));
+  for(var i=0;i<n;i++)P.push({x:Math.random()*W,y:Math.random()*H,r:4+Math.random()*7,
+    s:.3+Math.random()*.8,d:Math.random()*6.28,a:Math.random()*6.28,c:cols[i%4],o:.25+Math.random()*.4});
+  function draw(){
+    x.clearRect(0,0,W,H);
+    P.forEach(function(p){
+      p.y+=p.s;p.d+=.01;p.a+=.015;p.x+=Math.sin(p.d)*.6;
+      if(p.y>H+20){p.y=-20;p.x=Math.random()*W}
+      x.save();x.translate(p.x,p.y);x.rotate(p.a);x.globalAlpha=p.o;x.fillStyle=p.c;
+      x.beginPath();x.ellipse(0,0,p.r,p.r*.55,0,0,6.28);x.fill();x.restore();
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+</script>
+</body>
+</html>
